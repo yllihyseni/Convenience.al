@@ -1498,26 +1498,54 @@ body.mobile-nav-active #mobile-nav-toggle {
 .project {
   width: 100%;
   height: 500px;
-  background-image: url("../img/portfolio/house1.jpg");
+  background-image: url("../img/portfolio/sell1.jpg");
   background-size: cover;
   background-position: center;
   padding: 0 !important;
   float:left;
 }
-
 .project-2 {
-  background-image: url("../img/portfolio/house4.jpg");
+  background-image: url("../img/portfolio/sell2.jpg");
 }
 
 .project-3 {
-  background-image: url("../img/portfolio/house2.jpg");
+  background-image: url("../img/portfolio/sell3.jpg");
 }
 
 .project-4 {
-  background-image: url("../img/portfolio/sell1.jpg");
+  background-image: url("../img/portfolio/sell4.jpg");
 }
 .project-5 {
-  background-image: url("../img/portfolio/sell2.jpg");
+  background-image: url("../img/portfolio/sell5.jpg");
+}
+.project-6 {
+  background-image: url("../img/portfolio/sell6.jpg");
+}
+.project_rent {
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/portfolio/rent1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0 !important;
+  float:left;
+}
+.project_rent-2 {
+  background-image: url("../img/portfolio/rent2.jpg");
+}
+
+.project_rent-3 {
+  background-image: url("../img/portfolio/rent3.jpg");
+}
+
+.project_rent-4 {
+  background-image: url("../img/portfolio/rent4.jpg");
+}
+.project_rent-5 {
+  background-image: url("../img/portfolio/rent5.jpg");
+}
+.project_rent-6 {
+  background-image: url("../img/portfolio/rent6.jpg");
 }
 
 .project-hover {
@@ -1566,6 +1594,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .project:hover .project-hover hr {
+  width: 100%;
+  height: 5px;
+}
+
+.project_rent:hover .project-hover {
+  opacity: 1;
+}
+
+.project_rent:hover .project-hover hr {
   width: 100%;
   height: 5px;
 }
